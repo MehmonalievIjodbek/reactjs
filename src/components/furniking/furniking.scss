@@ -1,0 +1,50 @@
+.furniking {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 21px 0 25px 0;
+  .furniking-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center!important;
+    .furniking-logo-img {
+      margin-right: 5px;
+    }
+    p{
+      font-family: 'Rubik', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 28px;
+      color: #555555;
+      margin: 10px 0 0 0 ;
+    }
+  }
+  .furniking-search{
+    .furniking-search-container{
+      width: 582px;
+      height: 46px;
+      border: 2px solid #7AC751;
+      border-radius: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      input {
+        padding: 15px 0 15px 25px;
+        background: none;
+        width: 500px;
+      }
+      .search-icon {
+        background: #7AC751;
+        border-radius: 0px 7px 6px 0px;
+        padding: 15px 22px;
+        color: white;
+      }
+    }
+  }
+  .furniking-icons a {
+    color: grey;
+    padding: 0 13px;
+  }
+}
+

@@ -1,0 +1,38 @@
+.head{
+  background: #7AC751;
+  .head-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0 15px 0;
+  }
+  .head-left{
+    p{
+      font-family: 'Rubik', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #FFFFFF;
+      margin: 0;
+    }
+  }
+  .head-right{
+    .head-button {
+      border: none;
+      background: none;
+      font-family: 'Rubik', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #FFFFFF;
+      cursor: pointer;
+    }
+  }
+}
+
+.button-expamle {
+  background: none;
+  border: none;
+}
